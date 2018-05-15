@@ -11,6 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', 'PagesController@index');
+
+Route::get('/about', 'PagesController@about');
+
+Route::get('/name', 'PagesController@index');
+
+Route::resource('posts', 'PostsController');
+
+Route::get('/prolanguage', 'PagesController@proLanguage');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index')->name('home');
+
+
+Route::get('get-file', 'CloudderController@getFile');
+Route::post('upload-file', ['as'=>'upload-file','uses'=>'CloudderController@uploadFile']);
