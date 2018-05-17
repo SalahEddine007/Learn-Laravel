@@ -39,7 +39,7 @@
     <body>
       
       @include('includes.navbar')
-      {{-- @include('includes.messages') --}}
+      @include('includes.messages')
  @yield('content')
 
 

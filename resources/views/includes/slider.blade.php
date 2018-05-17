@@ -13,13 +13,14 @@
    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
    <li data-target="#mycarousel" data-slide-to="1"></li>
    <li data-target="#mycarousel" data-slide-to="2"></li>
+   <li data-target="#mycarousel" data-slide-to="3"></li>
 
  </ol>
 
  <!-- Wrapper for slides -->
  <div class="carousel-inner" role="listbox">
    <div class="item active">
-     <img src="/img/11.png" data-color="lightblue" alt="First Image"  >
+     <img src="/img/12.png" data-color="lightblue" alt="First Image"  >
      <div class="carousel-caption mycolor4">
        <h2 class="myfonty">
 This is test 1
@@ -28,7 +29,7 @@ This is test 1
      </div>
    </div>
    <div class="item">
-     <img src="/img/12.png" data-color="firebrick" alt="Second Image" >
+     <img src="/img/11.png" data-color="firebrick" alt="Second Image" >
      <div class="carousel-caption mycolor4">
        <h2 class="myfonty">
 This is test 2        
@@ -42,6 +43,13 @@ This is test 2
 This is test 3        </h2>
      </div>
    </div>
+   <div class="item">
+    <img src="/img/11.png" data-color="violet" alt="Third Image">
+    <div class="carousel-caption mycolor4">
+      <h2 class="myfonty">
+This is test 4        </h2>
+    </div>
+  </div>
    
    
  </div>
@@ -66,7 +74,7 @@ color:#000;
 }
 
 .carousel-inner .item{ 
-  height:500px; 
+  height:550px; 
   background-size:cover;
   background-position: center center;
 }

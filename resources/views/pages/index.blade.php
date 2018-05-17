@@ -8,7 +8,7 @@
                       <div class="content">
                           <div class="title m-b-md">
                           <div class="container">
-                            <h2>Learn Laravel</h2> 
+                            <h1>Learn Laravel</h1> 
                           </div></div>
                       </div>
 
