@@ -38,7 +38,7 @@
     </div> 
  
 {{Form::hidden('_method' ,'PUT') }}
-{{Form::submit('Update',['class'=>"btn btn-primary btn-lg"]) }}
+{{Form::submit('Update',['class'=>"btn btn-success pull-right"]) }}
 
   </div>
 </div>

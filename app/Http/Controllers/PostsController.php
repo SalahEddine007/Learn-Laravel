@@ -70,9 +70,6 @@ class PostsController extends Controller
     $fileNameStore = $fileName .'_'.time().'.'.$extension;
 
     $path = $request->file('post_image')->move(base_path() . '/public/images/', $fileNameStore);
-  
- 
-            
         }else{
                 $fileNameStore = 'noImage.jpg';
               }
@@ -168,11 +165,8 @@ $post->save();
         if(auth()->user()->id !== $post->user_id){
             return redirect('/posts')->with('error','Unauthorized');
         }
-
-
             if($post->post_image != 'noImage.jpg'){
                 Storage::delete('public/images/'.$post->post_image);
- 
 }
 
 

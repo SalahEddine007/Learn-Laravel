@@ -28,14 +28,14 @@
     </div>
 
    
- 
+
 <div class="form-group">
       
       {{Form::file('post_image', ['class'=>'btn ' ]) }}
     </div>   
  
-{{Form::submit('Create',['class'=>'btn btn-primary btn-lg' ] ) }}
-
+    <div class="form-group pull-right">
+      {{Form::submit('Create',['class'=>'btn btn-primary' ] ) }}
    </div>
 
 

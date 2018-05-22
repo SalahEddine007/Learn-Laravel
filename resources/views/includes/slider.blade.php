@@ -6,7 +6,7 @@
 
 
 
-<div class="container">
+<div class="container w3-container w3-center w3-animate-zoom">
 <div id="mycarousel" class="carousel slide" data-ride="carousel">
  <!-- Indicators -->
  <ol class="carousel-indicators">
